@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YZYStringLibrary_Example' do
+  pod 'YZYStringLibrary', :path => '../'
+
+  target 'YZYStringLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
