@@ -1,0 +1,6 @@
+framework module YZYStringLibrary {
+  umbrella header "YZYStringLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

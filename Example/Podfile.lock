@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YZYStringLibrary (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YZYStringLibrary (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YZYStringLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YZYStringLibrary: 85d092722258748efdc61d6a3c228c1360b96f51
+
+PODFILE CHECKSUM: d8a9f5ba1a748c207e57615d6ab5ba28d94cb4b3
+
+COCOAPODS: 1.5.2

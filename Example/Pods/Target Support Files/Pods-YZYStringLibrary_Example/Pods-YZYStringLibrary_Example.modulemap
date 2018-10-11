@@ -1,0 +1,6 @@
+framework module Pods_YZYStringLibrary_Example {
+  umbrella header "Pods-YZYStringLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
